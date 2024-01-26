@@ -16,7 +16,7 @@ const pathName = usePathname();
 
   return (
     <div>
-         <Link href={item.path} className={`min-w-100 px-10 rounded-full font-medium text-center${pathName === item.path && 'bg-gray-300 ring ring-gray-400'}`}>
+         <Link href={item.path} className={`min-w-100 px-10 rounded-full font-medium text-center${pathName === item.path && 'bg-gray-300 ring ring-blue-500 hover:ring-blue-700 '}`}>
           {item.title}</Link>
     </div>
   )

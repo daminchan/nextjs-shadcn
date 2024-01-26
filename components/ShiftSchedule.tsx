@@ -66,7 +66,7 @@ export const ShiftSchedule: React.FC<Props> = (props) => {
   
   return (
     
-    <Card className="bg-white shadow-lg rounded-lg overflow-hidden transition duration-300 transform hover:scale-105">
+    <Card className="bg-white shadow-lg rounded-lg overflow-hidden ">
     <CardHeader className="h-32">
       <CardTitle>{props.cardTitle}</CardTitle>
       <CardDescription>{props.cardDescription}</CardDescription>

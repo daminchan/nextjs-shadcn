@@ -109,7 +109,7 @@ export const AdminShiftSchedule: React.FC<Props> = (props) => {
       <TableCell className="text-right">
       {props.shifts.find((s) => s.date === shift.date) ? (
           <>
-            <div> {props.shifts.find((s) => s.date === shift.date)?.start_time}{props.shifts.find((s) => s.date === shift.date)?.end_time}</div>
+            <div> {props.shifts.find((s) => s.date === shift.date)?.start_time}</div>
             
           </>
         ) : (

@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import { AdminShiftSchedule } from "@/components/AdminShiftSchedule";
+import { AdminShiftSchedule } from "@/components/shiftDataDisplay/AdminShiftSchedule";
 import { employee } from "@/lib/cardData";
 import { useRouter } from 'next/navigation'
 
